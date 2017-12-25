@@ -11,7 +11,6 @@ const db = require('../db/db');
 APIRouter.use(bodyParser.urlencoded({extended: true}));
 
 APIRouter.all(/\/motions|\/fleets|\/vehicles/, function (req, res, next) {
-    console.log('lol');
     if(req.header("Authorization"))
     {
         let auth = req.header("Authorization").split(" ")[1];
