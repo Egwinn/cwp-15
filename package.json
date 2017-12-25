@@ -1,0 +1,13 @@
+{
+    "name": "cwp-15",
+    "author": "Egwinn",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "geolib": "^2.0.24",
+        "jsonwebtoken": "^8.1.0",
+        "mysql2": "^1.5.1",
+        "sequelize": "^4.28.6"
+    }
+}
